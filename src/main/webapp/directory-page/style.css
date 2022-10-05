@@ -1,0 +1,28 @@
+#event-list {
+  padding: 0px;
+  position: relative;
+}
+  
+#event-list li {
+  cursor: pointer;
+  margin: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  list-style: none;
+  outline: 1px solid black;
+  box-shadow: 10px 10px 0px rgba(128, 128, 128, 0.1);
+  background-color: white;
+}
+
+#event-list li:hover {
+  box-shadow: 0px 0px 0px;
+  outline: 4px solid #04AA6D;
+}
+  
+.event-name {
+  font-size: x-large;
+  font-weight: bold;
+}
